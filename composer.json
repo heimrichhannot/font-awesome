@@ -6,23 +6,20 @@
     "MIT",
     "OFL-1.1"
   ],
-  "require": {
-    "robloach/component-installer": "*",
-    "components/font-awesome": ">=4.4,<5-dev"
-  },
   "extra": {
+    "branch-alias": {
+      "dev-master": "4.4.x-dev"
+    },
     "component": {
-      "components/font-awesome": {
-        "styles": [
-          "css/font-awesome.css"
-        ],
-        "files": [
-          "css/font-awesome.min.css",
-          "fonts/*",
-          "less/*",
-          "scss/*"
-        ]
-      }
+      "styles": [
+        "css/font-awesome.css"
+      ],
+      "files": [
+        "css/font-awesome.min.css",
+        "fonts/*",
+        "less/*",
+        "scss/*"
+      ]
     }
   }
 }
