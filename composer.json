@@ -1,0 +1,27 @@
+{
+  "name": "heimrichhannot/font-awesome",
+  "description": "The iconic font designed for use with Twitter Bootstrap.",
+  "type": "component",
+  "license": [
+    "MIT",
+    "OFL-1.1"
+  ],
+  "require": {
+    "components/font-awesome": ">=4.4,<5-dev"
+  },
+  "extra": {
+    "component": {
+      "components/font-awesome": {
+        "styles": [
+          "css/font-awesome.css"
+        ],
+        "files": [
+          "css/font-awesome.min.css",
+          "fonts/*",
+          "less/*",
+          "scss/*"
+        ]
+      }
+    }
+  }
+}
