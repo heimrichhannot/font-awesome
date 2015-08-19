@@ -7,6 +7,7 @@
     "OFL-1.1"
   ],
   "require": {
+    "robloach/component-installer": "*",
     "components/font-awesome": ">=4.4,<5-dev"
   },
   "extra": {
