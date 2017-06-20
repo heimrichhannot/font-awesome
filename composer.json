@@ -1,7 +1,7 @@
 {
   "name": "heimrichhannot/font-awesome",
   "description": "The iconic font designed for use with Twitter Bootstrap.",
-  "type": "component",
+  "type": "contao-component",
   "license": [
     "MIT",
     "OFL-1.1"
@@ -9,6 +9,9 @@
   "extra": {
     "branch-alias": {
       "dev-master": "4.4.x-dev"
+    },
+    "require": {
+        "contao-components/installer": "^1.0.9"
     },
     "component": {
       "styles": [
